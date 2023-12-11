@@ -61,6 +61,14 @@ class TimesRepository extends ChangeNotifier {
         idAPI: 56,
       ),
       Time(
+        nome: 'Grêmio',
+        pontos: 0,
+        brasao: 'assets/images/gremio.png',
+        cor: const Color.fromARGB(255, 5, 136, 217),
+        titulos: [],
+        idAPI: 45,
+      ),
+      Time(
         nome: 'Atletico Mineiro',
         pontos: 0,
         brasao: 'assets/images/mineiro.png',
@@ -75,14 +83,6 @@ class TimesRepository extends ChangeNotifier {
         cor: const Color.fromARGB(255, 172, 5, 5),
         titulos: [],
         idAPI: 18,
-      ),
-      Time(
-        nome: 'Grêmio',
-        pontos: 0,
-        brasao: 'assets/images/gremio.png',
-        cor: const Color.fromARGB(255, 5, 136, 217),
-        titulos: [],
-        idAPI: 45,
       ),
       Time(
         nome: 'Botafogo',
@@ -165,14 +165,6 @@ class TimesRepository extends ChangeNotifier {
         idAPI: 37,
       ),
       Time(
-        nome: 'Santos',
-        pontos: 0,
-        brasao: 'assets/images/santos.png',
-        cor: const Color.fromARGB(255, 0, 0, 0),
-        titulos: [],
-        idAPI: 63,
-      ),
-      Time(
         nome: 'Vasco',
         pontos: 0,
         brasao: 'assets/images/vasco.png',
@@ -187,6 +179,14 @@ class TimesRepository extends ChangeNotifier {
         cor: const Color.fromARGB(255, 5, 136, 217),
         titulos: [],
         idAPI: 68,
+      ),
+      Time(
+        nome: 'Santos',
+        pontos: 0,
+        brasao: 'assets/images/santos.png',
+        cor: const Color.fromARGB(255, 0, 0, 0),
+        titulos: [],
+        idAPI: 63,
       ),
       Time(
         nome: 'Goiás',
